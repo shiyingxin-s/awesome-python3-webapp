@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{6f04c4ac-2147-4991-b181-e977f14f2b84}</ProjectGuid>
     <ProjectHome />
-    <StartupFile />
+    <StartupFile>www\app.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -22,7 +22,16 @@
     <Compile Include="www\app.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="backup\" />
+    <Folder Include="conf\" />
+    <Folder Include="dist\" />
+    <Folder Include="ios\" />
     <Folder Include="www" />
+    <Folder Include="www\static\" />
+    <Folder Include="www\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

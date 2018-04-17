@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "awesome-python3-webapp", "awesome-python3-webapp.pyproj", "{6F04C4AC-2147-4991-B181-E977F14F2B84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F04C4AC-2147-4991-B181-E977F14F2B84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F04C4AC-2147-4991-B181-E977F14F2B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7ABA8D27-A991-4655-AB72-51B663A021DA}
+	EndGlobalSection
+EndGlobal
